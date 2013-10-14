@@ -1,0 +1,1 @@
+TwitterLti::Config = OpenStruct.new

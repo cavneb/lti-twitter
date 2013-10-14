@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="App">
+<head>
+  <title>Twitter LTI</title>
+  <%= stylesheet_link_tag    "twitter_lti/application", media: "all" %>
+  <%= javascript_include_tag "twitter_lti/application" %>
+  <%= csrf_meta_tags %>
+  <script type="text/javascript">
+  window.ROOT_URL = '<%= root_url %>';
+  window.LAUNCH_PARAMS = <%= raw(@launch_params.to_json) %>;
+  </script>
+</head>
+<body ng-controller="TwitterLTI">
+
+<%= yield %>
+
+</body>
+</html>
