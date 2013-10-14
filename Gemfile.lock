@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    twitter_lti (0.0.2)
+    twitter_lti (0.0.3)
       ims-lti (~> 1.1.4)
       rails (~> 4.0.0)
       twitter (~> 5.0.0.rc.1)
